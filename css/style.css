@@ -1,0 +1,405 @@
+@font-face { 
+    font-family: CopperplateGothic; 
+    src: url(../fonts/CopperplateGothicBoldT.ttf); 
+}
+
+@font-face { 
+    font-family: helvetica; 
+    src: url(../fonts/helvetica-rounded-lt-bold.ttf); 
+}
+
+#main {
+    background: url(../images/BackgroundArt.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll; background-size:100% 100%;    
+}
+.create {
+    position: absolute;
+    bottom: 3%; 
+    right: 5%
+}
+
+
+#quran_image{
+    position: absolute; top: 0;right: 0;
+}
+
+.text{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+}
+
+.text h1{
+    font-family: CopperplateGothic;
+    font-size: 30px;
+}
+
+.text h3{
+    font-family: helvetica;
+    font-size: 12px
+}
+
+.icons-index {
+    position: absolute;
+    bottom: 1%; 
+    left: 1%;
+    width: 100%;
+    text-align: center;
+    font-size: 12px
+}
+.ui-body-c {
+    color: #fff;
+    text-shadow: 1px 1px 1px #050505
+}
+
+#login {
+    background: url(../images/BackgroundArt.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll; background-size:100% 100%;    
+}
+
+#dua {
+    background: url(../images/BackgroundArt.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll; background-size:100% 100%;    
+}
+
+.LoginIcon{
+    border-style:solid;border-width:1px
+}
+
+#popupPanelRecordings-popup {
+    right: 0 !important;
+    left: auto !important;
+}
+#popupPanelLessons-popup {
+    right: 0 !important;
+    left: auto !important;
+}
+#popupPanelSettings-popup {
+    right: 0 !important;
+    left: auto !important;
+}
+.popupPanel {
+    width: 250px;
+    border: 1px solid #000;
+    border-right: none;
+    background: rgba(0,0,0,1);
+    margin: -1px 0;
+    text-align: center;
+    background-color: #bababa
+}
+/*.popupPanel .ui-btn {
+    margin: 2em 15px;
+}*/
+.popupPanel .ui-btn {
+    margin: 0 10px;
+}
+.popupPanel .ui-controlgroup.ui-mini, fieldset.ui-controlgroup.ui-mini {
+    margin: .25em 10px;
+}
+
+#bar{
+    font-size: 15px;
+    text-align: center;
+    margin: -1.1em 80px 1.7em;
+}
+#bar #user_lesson{
+   margin-left: 5px; 
+   float:left;
+}
+#bar .audio-play{
+   margin-left: 10px; 
+   float:left;
+}
+#bar .audio-pause{
+   margin-left: 10px; 
+   float:left;
+}
+/*#bar .audio-stop{
+   margin-left: 10px; 
+   float:left;
+}*/
+/*#bar .audio-position{
+    margin-left: 30px;
+    float:left;    
+}*/
+.audio-pause{
+   display: none;
+}
+.record-stop{
+   display: none
+}
+.record-play{
+   display: none
+}
+
+#image{
+    width: 100%;
+    text-align: center;
+}
+#lessonno{
+    height:40px;
+    background-color:#1b75bb;
+    text-shadow: 0 0 0;
+    
+    font-size:17px;
+    font-weight:bolder;
+}
+#lesson{
+    position:relative;
+    /*width: 956px;
+    height: 957px*/
+}
+#lesson #marker{
+    position:absolute;
+    background-color:#fff600;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+}
+/*
+.progress-bar{
+    background-color:white;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    display: none;
+}
+.progress-bar input[type=number], .ui-slider-handle {
+    display: none;
+}  
+.progress-bar .ui-slider-track {
+    margin: 0px;
+}
+.progress-bar #progress-text{
+    text-align: center;
+    text-shadow: 0 0 0;
+    color: black
+}
+*/
+.wait{
+    background-color: black;
+    height: 100px;
+    color: white;
+    width:200px;
+    text-align: center
+}
+
+.ui-btn-up-d {
+    border: 1px solid #CA1818;
+    background: #E01F1F;
+    font-weight: 700;
+    color: #222;
+    text-shadow: 0 1px 0 #fff;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#D42020),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(#D42020,#f1f1f1);
+    background-image: -moz-linear-gradient(#D42020,#f1f1f1);
+    background-image: -ms-linear-gradient(#D42020,#f1f1f1);
+    background-image: -o-linear-gradient(#D42020,#f1f1f1);
+    background-image: linear-gradient(#D42020,#f1f1f1);
+}
+
+.ui-li-img, .ui-listview .ui-li-icon {
+    position: absolute;
+    left: 1px;
+    top: 0;
+}
+
+#dua_image{
+    position: absolute; top: 0;right: 0; height: 50%
+}
+
+#dua_title{
+    height:20px;
+    background-color:#1b75bb;
+    text-shadow: 0 0 0;
+    text-align:center;
+    font-size:17px;
+    font-weight:bolder;
+}
+
+#dua_text{
+    background-color:white;
+    text-shadow: 0 0 0;
+    text-align:left;
+    font-size:17px;
+    color: black;
+    padding: 10px;
+    overflow:auto;
+}
+
+.audio-play_dua{float: right;margin-right: 80px;margin-top: -27px;display: none}
+
+.audio-pause_dua{float: right;margin-right: 80px;margin-top: -27px;}
+
+.makharij{width: 100%}
+
+.makharij .col_left{width: 40%;float: left;}
+
+.makharij .col_right{width: 60%;float: right;}
+
+.makharij .col_left .word{width: 100%;float: left; background-color: #373637; text-align: center;height: 200px}
+
+.makharij .col_left .word img{max-height: 150px;width: 100%}
+
+.makharij .col_left .word span{font-size: 25px}
+
+.makharij .col_left .desc{width: 100%;float: left; background-color: #555658;}
+
+.makharij .col_left .desc ._text{width: 95%; padding: 10px; text-align: left;font-size: 13px;font-weight:lighter;text-shadow: 0 0 0;}
+
+.makharij .col_left .desc .buttons{position: absolute;bottom: 10px; width: 35%}
+
+.makharij .col_right .image{width: 100%;float: left;height: 200px}
+
+.makharij .col_right .image img{height: 200px}
+
+.makharij .col_right .alphabets{
+    width: 100%;float: left;
+    background: url(../images/BackgroundArt.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll; background-size:100% 100%;   
+}
+
+.makharij .col_right .alphabets .marker{
+    background-color:#1b75bb;
+    opacity:0.3;
+    filter:alpha(opacity=30);
+}
+
+.makharij .col_right .alphabets img{
+    width: 100%;
+}
+
+.alphabets .ui-block-a, .alphabets .ui-block-b, .alphabets .ui-block-c, .alphabets .ui-block-d, .alphabets .ui-block-e {
+    border: white solid 1px 
+}
+
+._title{
+    height:20px;
+    background-color:#1b75bb;
+    text-shadow: 0 0 0;
+    text-align:center;
+    font-size:17px;
+    font-weight:bolder;
+}
+
+#makharij_intro{
+    background: url(../images/BackgroundArt.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll; background-size:100% 100%;    
+}
+
+.makharij_intro_title{
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 0 0 0;
+}
+
+.makharij_intro_text{
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 0 0 0;
+    text-align: left;
+    background-color: #555658;
+    padding: 20px;
+    overflow:auto;
+}
+
+#articulation{
+    background: url(../images/BackgroundArt.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll; background-size:100% 100%;    
+}
+
+.articulation_title{
+    width: 90%;
+    font-size: 9px;
+    height: 50px;
+    vertical-align: bottom;
+    display: table-cell;
+    text-align: center
+}
+.articulation img{
+    width: 90%;
+}
+
+#articulation_detail{
+    background: url(../images/BackgroundArt.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll; background-size:100% 100%;    
+}
+
+.articulation_detail_title{
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 0 0 0;
+}
+
+.articulation_detail_image{
+    width: 30%;
+    float: left
+}
+.articulation_detail_image img{
+    width:90%    
+}
+
+.articulation_detail_alphabets{
+    width: 70%;
+    float: right
+}
+
+.articulation_detail_alphabets img{
+    float: left;
+    width: 20%
+}
+
+.articulation_detail_text{
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 0 0 0;
+    text-align: left;
+    background-color: #555658;
+    padding: 20px;
+    overflow:auto;
+    float: left;
+    width: 85%
+}
+
+#lesson_detail{
+    background: url(../images/BackgroundArt.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:scroll; background-size:100% 100%;    
+}
+
+#lesson_detail_image{
+    position: absolute; top: 0;right: 0; height: 50%
+}
+
+#lesson_detail_title{
+    height:20px;
+    background-color:#1b75bb;
+    text-shadow: 0 0 0;
+    text-align:center;
+    font-size:17px;
+    font-weight:bolder;
+}
+
+#lesson_detail_text{
+    background-color:white;
+    text-shadow: 0 0 0;
+    text-align:left;
+    font-size:17px;
+    color: black;
+    padding: 10px;
+    overflow:auto;
+}
+
